@@ -1,3 +1,5 @@
+
+  
 function openMenu(evt, menuName) {
   // Get all elements with class="menu-section" and hide them
   var menuSections = document.getElementsByClassName("menu-section");
@@ -19,3 +21,4 @@ function openMenu(evt, menuName) {
   
   evt.currentTarget.classList.add("active");
 }
+
