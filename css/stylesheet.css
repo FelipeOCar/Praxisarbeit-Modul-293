@@ -182,31 +182,3 @@ body, html {
     background-color: #333;
     color: #fff;
 }
-
-:root {
-    --main-color: #FF6A6A;
-    --secondary-color: #FFF3E0;
-    --text-color: #333;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-.navbar a.active, .tab-link.active {
-    color: var(--main-color);
-}
-
-.logo {
-    animation: logoFadeIn 2s ease-in-out;
-}
-
-@keyframes logoFadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-    .navbar { flex-direction: column; }
-}
